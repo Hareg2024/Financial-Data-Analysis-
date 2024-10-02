@@ -5,7 +5,9 @@ This repository focus on a Bank data analysis. It contains problem statements an
  1. Total loan application: total application received in a soecifie period, monitor Month to date (MTD) loan applications and track changes Month over Month (MoM)
  2. Total Funded amount: Understanding the total amount of funds disbursed as loan, keep track of the MTD total funded amount and analyse the  MoM changes.
  3. Total amount recieved: track the amount recieved from borrowers to asses the bank cash flow and loan payments. Analyse the MTD total amount received and observe the MoM changes.
- 4. Average interest rate: calculate interest rates across all loans 
+ 4. Average interest rate: calculate interest rates across all loans, MTD and monitor the MoM changes
+ 5. Average Debt-to-Income ratio(DTI):Understand the financial health of the customers(borrowers). Calculate average DTI, MTD  and observe the MoM flactuations
+        
 ## Problem statment 2
 1. Monthly trends by issue date : Indentify seasonality and long-term trends in lending activities
 2. Regional Analysis by State: Identify regions with sifnificant lending activity and asses regional disparities
