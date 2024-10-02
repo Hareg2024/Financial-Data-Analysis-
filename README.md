@@ -15,7 +15,9 @@ This repository focus on a Bank data analysis. It contains problem statements an
 4. Employee length anlaysis : How lending metrics are distributed among borrowers with different employment length, assess the impact of employment history on loan applications.
 5. Loan Purpose breakdown : provide a visual breakdown of loan metrics based on the stated purposes of loans, aiding in the undestanding of the primary reasons borrowers seek financing.
 6. Home Ownership analysis: Hierarchical view of how home oownership impacts loan applications and disbursements. Metrics : Total loan application, Total funded amount, Total amount recieved
-7. 
+
+## Sample solutions 
+  #### The complete solutions are avialable in this repository.
    
  
 
