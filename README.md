@@ -21,7 +21,13 @@ This repository focus on a Bank data analysis. It contains problem statements an
     
      ![image](https://github.com/user-attachments/assets/4ad78293-6754-4f12-84e6-0566495d1349)
 
-    
+     ![image](https://github.com/user-attachments/assets/a88c9030-dd2d-4416-b3ec-dea617eaef7b)
+
+    ## Result
+
+    ![image](https://github.com/user-attachments/assets/8c773c7f-37ef-4e54-90bf-d1bd8714b892)
+
+
  5. Total amount recieved: track the amount recieved from borrowers to asses the bank cash flow and loan payments. Analyse the MTD total amount received and observe the MoM changes.
  6. Average interest rate: calculate interest rates across all loans, MTD and monitor the MoM changes
  7. Average Debt-to-Income ratio(DTI):Understand the financial health of the customers(borrowers). Calculate average DTI, MTD  and observe the MoM flactuations
