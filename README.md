@@ -7,15 +7,11 @@ This repository focus on a Bank data analysis. It contains problem statements an
     * Schema name:bank_loan_data
 
       ![image](https://github.com/user-attachments/assets/b9308530-3af9-447f-aaf2-31d52c3195ac)
+
+      ## Result
       
       ![image](https://github.com/user-attachments/assets/783f81cd-acf6-4566-81ee-e79e2c005466)
-    
-   ## Result
-     ![image](https://github.com/user-attachments/assets/65709427-f6ba-45a8-940b-c0720ee511b0)
-    
-     ![image](https://github.com/user-attachments/assets/cf5ffc20-bc22-498d-b718-fad3bf2ef7cb)
-
-
+      
  3. Total Funded amount: Understanding the total amount of funds disbursed as loan, keep track of the MTD total funded amount and analyse the  MoM changes.
 
     
