@@ -10,7 +10,7 @@ This repository focus on a Bank data analysis. It contains problem statements an
       
       ![image](https://github.com/user-attachments/assets/783f81cd-acf6-4566-81ee-e79e2c005466)
     
-
+   ## Result
      ![image](https://github.com/user-attachments/assets/65709427-f6ba-45a8-940b-c0720ee511b0)
     
      ![image](https://github.com/user-attachments/assets/cf5ffc20-bc22-498d-b718-fad3bf2ef7cb)
@@ -20,7 +20,9 @@ This repository focus on a Bank data analysis. It contains problem statements an
 
     
      ![image](https://github.com/user-attachments/assets/762b39f8-c4ae-4018-95db-9611b964c8be)
-     
+    
+      ## Result
+    
      ![image](https://github.com/user-attachments/assets/4ad78293-6754-4f12-84e6-0566495d1349)
 
     
