@@ -83,12 +83,63 @@ group by monthname(Issue_Date) order by COUNT(*) DESC;
 
 
 --2.2.Regional Analysis by State
-
+SELECT 
+	address_state AS State, 
+	COUNT(id) AS Total_Loan_Applications,
+	SUM(loan_amount) AS Total_Funded_Amount,
+	SUM(total_payment) AS Total_Amount_Received
+FROM bank_loan_data
+GROUP BY address_state
+ORDER BY address_state
 
 --2.3.Long term Anlaysis 
+SELECT 
+	term AS Term, 
+	COUNT(id) AS Total_Loan_Applications,
+	SUM(loan_amount) AS Total_Funded_Amount,
+	SUM(total_payment) AS Total_Amount_Received
+FROM bank_loan_data
+GROUP BY term
+ORDER BY term
 
 --2.4.Employee length anlaysis
 
+SELECT 
+	emp_length AS Employee_Length, 
+	COUNT(id) AS Total_Loan_Applications,
+	SUM(loan_amount) AS Total_Funded_Amount,
+	SUM(total_payment) AS Total_Amount_Received
+FROM bank_loan_data
+GROUP BY emp_length
+ORDER BY emp_length
+
+        --Good Loan Percentage
+SELECT
+    (COUNT(CASE WHEN loan_status = 'Fully Paid' OR loan_status = 'Current' THEN id END) * 100.0) / 
+	COUNT(id) AS Good_Loan_Percentage
+FROM bank_loan_data
+
+        --Bad Loan Amount Received
+SELECT FORMAT(SUM(total_payment),'N','en-US') AS Bad_Loan_amount_received 
+FROM bank_loan_data
+WHERE loan_status = 'Charged Off'
+
 --2.5.Loan Purpose breakdown
+SELECT 
+	purpose AS PURPOSE, 
+	COUNT(id) AS Total_Loan_Applications,
+	SUM(loan_amount) AS Total_Funded_Amount,
+	SUM(total_payment) AS Total_Amount_Received
+FROM bank_loan_data
+GROUP BY purpose
+ORDER BY purpose
 
 --2.6.Home Ownership analysis 
+SELECT 
+	home_ownership AS Home_Ownership, 
+	COUNT(id) AS Total_Loan_Applications,
+	SUM(loan_amount) AS Total_Funded_Amount,
+	SUM(total_payment) AS Total_Amount_Received
+FROM bank_loan_data
+GROUP BY home_ownership
+ORDER BY home_ownership
