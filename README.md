@@ -3,8 +3,9 @@ This repository focus on a Bank data analysis. It contains problem statements an
 
 ## Problem statment 1
  1. Total loan application: total application received in a specifie period, monitor Month to date (MTD) loan applications and track changes Month over Month (MoM)
-     Data base name: bank_loan
-     Schema name:bank_loan_data
+    *  Data base name: bank_loan
+    * Schema name:bank_loan_data
+
       ![image](https://github.com/user-attachments/assets/b9308530-3af9-447f-aaf2-31d52c3195ac)
       ![image](https://github.com/user-attachments/assets/783f81cd-acf6-4566-81ee-e79e2c005466)
     
@@ -14,9 +15,14 @@ This repository focus on a Bank data analysis. It contains problem statements an
 
 
  3. Total Funded amount: Understanding the total amount of funds disbursed as loan, keep track of the MTD total funded amount and analyse the  MoM changes.
- 4. Total amount recieved: track the amount recieved from borrowers to asses the bank cash flow and loan payments. Analyse the MTD total amount received and observe the MoM changes.
- 5. Average interest rate: calculate interest rates across all loans, MTD and monitor the MoM changes
- 6. Average Debt-to-Income ratio(DTI):Understand the financial health of the customers(borrowers). Calculate average DTI, MTD  and observe the MoM flactuations
+     ![image](https://github.com/user-attachments/assets/762b39f8-c4ae-4018-95db-9611b964c8be)
+     
+     ![image](https://github.com/user-attachments/assets/4ad78293-6754-4f12-84e6-0566495d1349)
+
+    
+ 5. Total amount recieved: track the amount recieved from borrowers to asses the bank cash flow and loan payments. Analyse the MTD total amount received and observe the MoM changes.
+ 6. Average interest rate: calculate interest rates across all loans, MTD and monitor the MoM changes
+ 7. Average Debt-to-Income ratio(DTI):Understand the financial health of the customers(borrowers). Calculate average DTI, MTD  and observe the MoM flactuations
         
 ## Problem statment 2
 1. Monthly trends by issue date : Indentify seasonality and long-term trends in lending activities
